@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(270.06deg, #F1A6A6 -20.48%, rgba(241, 195, 195, 0) 148.39%);
+}
+
+.main {
+    font-family: sans-serif;
+    font-size: medium;
+
+}
+
+.title {
+    line-height: 59px;
+    size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main--add {
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+    width: 92px;
+    height: 57px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.main--adding {
+    text-align: -webkit-center;
+    margin-bottom: 4px;
+}
+
+.add-task {
+
+    /*border-radius: 5px;*/
+    border: none;
+    outline: none;
+    width: 411px;
+    height: 57px;
+    margin-bottom: 30px;
+
+}
+
+.add-task:focus {
+    border: none;
+    outline: none;
+    font-size: large;
+}
+
+.tasks {
+    display: flex;
+    color: #FFFFFF;
+    /*background-color: #f8f0f4;*/
+
+    /*border: 1px black solid;*/
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 4px;
+    background-color: #D89999;
+    /*border-radius: 9px;*/
+}
+
+.new-task {
+    padding: 10px;
+}
+
+.done {
+    /*background: #8e3434;*/
+    color: black;
+    text-decoration: line-through;
+}
+
+.imgEdit {
+    width: 20px;
+    height: 20px;
+    /*background: #7D3C3C;*/
+    /*color: #FFFFFF;*/
+}
+
+.imgDelete {
+    width: 20px;
+    height: 20px;
+    /*background: #7D3C3C;*/
+}
+
+.closeEdit {
+    width: 20px;
+    height: 20px;
+    /*background: #7D3C3C;*/
+}
+
+.hide {
+    display: none;
+}
